@@ -1,1 +1,30 @@
-{"name": "LOGICON","version": "1.0.0","description": "A sample project for LOGICON.","main": "index.js","scripts": {"start": "node index.js","deploy": "gh-pages -d dist"},"homepage": "https://LeoOMartin.github.io/LOGICON"}
+{
+  "name": "logicon",
+  "version": "1.0.0",
+  "description": "Master logical fallacies in news & politics",
+  "homepage": "https://LeoOMartin.github.io/LOGICON",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "framer-motion": "^10.16.4",
+    "@radix-ui/react-slot": "^2.0.2",
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.4.9",
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.28",
+    "autoprefixer": "^10.4.14",
+    "gh-pages": "^6.1.0"
+  }
+}
