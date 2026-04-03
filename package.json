@@ -1,0 +1,1 @@
+{"name": "LOGICON","version": "1.0.0","description": "A sample project for LOGICON.","main": "index.js","scripts": {"start": "node index.js","deploy": "gh-pages -d dist"},"homepage": "https://LeoOMartin.github.io/LOGICON"}
